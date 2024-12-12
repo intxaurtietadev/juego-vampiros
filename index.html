@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <title>Fiesta de Vampiros</title>
+</head>
+<body>
+    <div class="form">
+        <h1>🎉 Bienvenido a la Fiesta normal de tus vecinos 🎉</h1>
+        <form id="guestForm">
+            <label for="guestInput">¿Quién es?</label><br>
+            <input type="text" id="guestInput" placeholder="Escribe aquí..." required>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <div class="form" style="display: none;" id="secretCodeForm">
+        <form id="secretCodeForm">
+            <label for="secretCodeInput">¿Cómo sabemos que eres un vampiro de verdad...?</label><br>
+            <input type="text" id="secretCodeInput" placeholder="Escribe aquí..." required>
+            <button type="submit">Verificar</button>
+        </form>
+    </div>
+
+    <!-- Modal y overlay -->
+    <div id="overlay"></div>
+    <div id="popup">
+        <p></p>
+        <button onclick="closePopup()">Cerrar</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
