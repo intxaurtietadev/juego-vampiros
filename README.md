@@ -6,6 +6,9 @@
 ## 📋 Introduction
 **Fiesta de Vampiros** is a spooky, interactive web project where users join a vampire-themed party. The app dynamically responds to user input, offering playful feedback and secret challenges for exclusive access.
 
+![Vampire Party](vista-de-usuario.png)
+
+
 ## 📜 Table of Contents
 1. [Introduction](#introduction)
 2. [Features](#features)
